@@ -1,8 +1,8 @@
 <?php
 
-namespace SitemapComponent\Factories;
+namespace Sitemap\Factories;
 
-use SitemapComponent\Services\Sitemaps;
+use Sitemap\Services\Sitemaps;
 /**
  * Базовый класс фабрик.
  */

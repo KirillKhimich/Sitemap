@@ -1,13 +1,13 @@
 <?php
 
-namespace SitemapComponent\Services;
+namespace Sitemap\Services;
 
-use SitemapComponent\Config;
-use SitemapComponent\CheckingArrayHelper;
-use SitemapComponent\CheckingFileHelper;
-use SitemapComponent\CustomEx\InvalidArrayException;
-use SitemapComponent\CustomEx\InvalidFileSystemException;
-use SitemapComponent\SitemapTypeConstraints;
+use Sitemap\Config;
+use Sitemap\CheckingArrayHelper;
+use Sitemap\CheckingFileHelper;
+use Sitemap\CustomEx\InvalidArrayException;
+use Sitemap\CustomEx\InvalidFileSystemException;
+use Sitemap\SitemapTypeConstraints;
 /**
  * Абстрактный класс сервисов-создателей карт сайта.
  */

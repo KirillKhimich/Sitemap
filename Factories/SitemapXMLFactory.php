@@ -1,10 +1,10 @@
 <?php
 
-namespace SitemapComponent\Factories;
+namespace Sitemap\Factories;
 
-use SitemapComponent\Services\Sitemaps;
-use SitemapComponent\Services\SitemapXML;
-use SitemapComponent\SitemapTypeConstraints;
+use Sitemap\Services\Sitemaps;
+use Sitemap\Services\SitemapXML;
+use Sitemap\SitemapTypeConstraints;
 
 /**
  * Фабрика, соответствующая типу карты сайта XML.

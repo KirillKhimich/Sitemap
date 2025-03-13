@@ -1,10 +1,10 @@
 <?php
 
-namespace SitemapComponent\Services;
+namespace Sitemap\Services;
 
-use SitemapComponent\CustomEx\InvalidArrayException;
-use SitemapComponent\CustomEx\InvalidFileSystemException;
-use SitemapComponent\SitemapTypeConstraints;
+use Sitemap\CustomEx\InvalidArrayException;
+use Sitemap\CustomEx\InvalidFileSystemException;
+use Sitemap\SitemapTypeConstraints;
 
 /**
  * Сервис-создатель карты сайта формата JSON.

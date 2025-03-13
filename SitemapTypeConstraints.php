@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapComponent;
+namespace Sitemap;
 
 /**
  * Ограничение расширений файлов для каждого типа файла карты сайта.

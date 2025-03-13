@@ -9,6 +9,11 @@
       "email": "kirillposp1973@gmail.com"
     }
   ],
-  "require": {
+  "autoload": {
+    "psr-4": {
+      "kirillkhimich\\Sitemap" : "/",
+      "kirillkhimich\\Sitemap\\Factories" : "Factories/",
+      "kirillkhimich\\sitemap\\Services" : "Services/"
+    }
   }
 }

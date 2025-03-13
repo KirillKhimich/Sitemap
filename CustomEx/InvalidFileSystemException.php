@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapComponent\CustomEx;
+namespace Sitemap\CustomEx;
 /**
  * Кастомное исключение, связанное с работой с файловой системой.
  */

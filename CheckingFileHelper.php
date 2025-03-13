@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapComponent;
+namespace Sitemap;
 
 use SitemapComponent\CustomEx\InvalidFileSystemException;
 use SplFileInfo;

@@ -1,10 +1,10 @@
 <?php
 
-namespace SitemapComponent\Factories;
+namespace Sitemap\Factories;
 
-use SitemapComponent\Services\SitemapCSV;
-use SitemapComponent\Services\Sitemaps;
-use SitemapComponent\SitemapTypeConstraints;
+use Sitemap\Services\SitemapCSV;
+use Sitemap\Services\Sitemaps;
+use Sitemap\SitemapTypeConstraints;
 
 /**
  * Фабрика, соответствующая типу карты сайта CSV.

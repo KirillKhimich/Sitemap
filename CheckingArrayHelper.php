@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapComponent;
+namespace SitemapC;
 
 use DateTime;
 use SitemapComponent\CustomEx\InvalidArrayException;

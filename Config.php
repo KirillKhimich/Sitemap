@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapComponent;
+namespace Sitemap;
 
 class Config
 {
