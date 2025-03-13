@@ -2,8 +2,8 @@
 
 namespace kirillkhimich\Sitemap;
 
-use SitemapComponent\CustomEx\InvalidFileSystemException;
-use SitemapComponent\Factories\SitemapFactory;
+use kirillkhimich\Sitemap\CustomEx\InvalidFileSystemException;
+use kirillkhimich\Sitemap\Factories\SitemapFactory;
 
 /**
  * Класс, инициирующий библиотеку.

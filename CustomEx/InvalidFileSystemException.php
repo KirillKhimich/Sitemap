@@ -17,9 +17,8 @@ class InvalidFileSystemException extends \Exception
         string $message,
         string $comment = "Произошла ошибка при работе файловой системой: ",
         int $code = 0,
-        \Throwable $previous = null
     )
     {
-        parent::__construct($this->prepareMessage($comment) . $message, $code, $previous);
+        parent::__construct($this->prepareMessage($comment) . $message, $code);
     }
 }

@@ -19,8 +19,7 @@ class InvalidArrayException extends \Exception
         string $message,
         string $comment = "Произошла ошибка при парсинге массива: ",
         int $code = 0,
-        \Throwable $previous = null
     ) {
-        parent::__construct($this->prepareMessage($comment) . $message, $code, $previous);
+        parent::__construct($this->prepareMessage($comment) . $message, $code);
     }
 }

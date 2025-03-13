@@ -3,8 +3,8 @@
 namespace kirillkhimich\Sitemap;
 
 use DateTime;
-use SitemapComponent\CustomEx\InvalidArrayException;
-use SitemapComponent\Services\Sitemaps;
+use kirillkhimich\Sitemap\CustomEx\InvalidArrayException;
+use kirillkhimich\Sitemap\Services\Sitemaps;
 
 /**
  * Класс-хелпер для обработки поступающего массива страниц.

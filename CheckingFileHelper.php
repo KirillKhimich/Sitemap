@@ -2,7 +2,7 @@
 
 namespace kirillkhimich\Sitemap;
 
-use SitemapComponent\CustomEx\InvalidFileSystemException;
+use kirillkhimich\Sitemap\CustomEx\InvalidFileSystemException;
 use SplFileInfo;
 
 /**
