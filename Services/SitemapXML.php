@@ -33,7 +33,7 @@ class SitemapXML extends Sitemaps
     public function createSitemap(string $filePath, array $content) : bool
     {
         if ($this->isValidContents($content)){
-            
+
             if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
             {
                 $dom = new DOMDocument('1.0', 'UTF-8');
@@ -53,7 +53,7 @@ class SitemapXML extends Sitemaps
                     $urlset->appendChild($urlElement);
                 }
 
-                if ($dom->save($filePath)) {
+                if (!$dom->save($filePath)) {
                     throw new InvalidFileSystemException("Не удалось записать данные в файл: $filePath");
                 }
             }

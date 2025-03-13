@@ -35,11 +35,11 @@ class SitemapJSON extends Sitemaps
 
                 if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
                 {
-                if ($jsonData = json_encode($content, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE))
+                if (!$jsonData = json_encode($content, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE))
                 {
                     throw new InvalidArrayException("Ошибка кодирования: " . json_last_error_msg());
                 }
-                if (file_put_contents($filePath,$jsonData)) {
+                if (!file_put_contents($filePath,$jsonData)) {
                     throw new InvalidFileSystemException("Не удалось записать данные в файл: $filePath");
                 }
             }
