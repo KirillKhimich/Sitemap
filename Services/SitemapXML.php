@@ -32,10 +32,10 @@ class SitemapXML extends Sitemaps
      */
     public function createSitemap(string $filePath, array $content) : bool
     {
-        if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
-        {
-            if ($this->isValidContents($content)){
-
+        if ($this->isValidContents($content)){
+            
+            if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
+            {
                 $dom = new DOMDocument('1.0', 'UTF-8');
                 $dom->formatOutput = true;
                 $urlset = $dom->createElement('urlset');

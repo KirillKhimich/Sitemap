@@ -32,9 +32,11 @@ class SitemapCSV extends Sitemaps
      */
     public function createSitemap(string $filePath, array $content) : bool
     {
-        if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
-        {
-            if ($this->isValidContents($content)) {
+        if ($this->isValidContents($content)) {
+
+                if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
+                {
+
                 if ($file = fopen($filePath, "a+")) {
                     fputcsv($file, Config::DEFAULT_SITEMAP_KEYS, ";");
                     foreach ($content as $row) {

@@ -31,10 +31,10 @@ class SitemapJSON extends Sitemaps
      */
     public function createSitemap(string $filePath, array $content) : bool
     {
-        if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
-        {
-            if ($this->isValidContents($content)){
+        if ($this->isValidContents($content)){
 
+                if ($this->isValidTypeFile($this->type,$filePath) && $this->isCreatableFile($filePath))
+                {
                 if ($jsonData = json_encode($content, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE))
                 {
                     throw new InvalidArrayException("Ошибка кодирования: " . json_last_error_msg());
