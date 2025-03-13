@@ -38,9 +38,9 @@ class SitemapCSV extends Sitemaps
                 {
 
                 if ($file = fopen($filePath, "a+")) {
-                    fputcsv($file, Config::DEFAULT_SITEMAP_KEYS, ";","","");
+                    fputcsv($file, Config::DEFAULT_SITEMAP_KEYS, ";","\"","");
                     foreach ($content as $row) {
-                        fputcsv($file, $row, ";","","");
+                        fputcsv($file, $row, ";","\"","");
                     }
                     fclose($file);
                 }
