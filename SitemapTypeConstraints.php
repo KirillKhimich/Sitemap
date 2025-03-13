@@ -1,6 +1,6 @@
 <?php
 
-namespace Sitemap;
+namespace kirillkhimich\Sitemap;
 
 /**
  * Ограничение расширений файлов для каждого типа файла карты сайта.

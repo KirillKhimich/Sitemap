@@ -1,10 +1,10 @@
 <?php
 
-namespace Sitemap\Factories;
+namespace kirillkhimich\Sitemap\Factories;
 
-use Sitemap\Services\SitemapCSV;
-use Sitemap\Services\Sitemaps;
-use Sitemap\SitemapTypeConstraints;
+use kirillkhimich\Sitemap\Services\SitemapCSV;
+use kirillkhimich\Sitemap\Services\Sitemaps;
+use kirillkhimich\Sitemap\SitemapTypeConstraints;
 
 /**
  * Фабрика, соответствующая типу карты сайта CSV.

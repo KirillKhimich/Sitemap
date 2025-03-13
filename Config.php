@@ -1,6 +1,6 @@
 <?php
 
-namespace Sitemap;
+namespace kirillkhimich\Sitemap;
 
 class Config
 {

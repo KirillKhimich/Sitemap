@@ -1,6 +1,6 @@
 <?php
 
-namespace Sitemap\CustomEx;
+namespace kirillkhimich\Sitemap\CustomEx;
 /**
  * Кастомное исключение, связанное с работой с файловой системой.
  */

@@ -1,11 +1,11 @@
 <?php
 
-namespace Sitemap\Services;
+namespace kirillkhimich\Sitemap\Services;
 
-use Sitemap\Config;
-use Sitemap\CustomEx\InvalidArrayException;
-use Sitemap\CustomEx\InvalidFileSystemException;
-use Sitemap\SitemapTypeConstraints;
+use kirillkhimich\Sitemap\Config;
+use kirillkhimich\Sitemap\CustomEx\InvalidArrayException;
+use kirillkhimich\Sitemap\CustomEx\InvalidFileSystemException;
+use kirillkhimich\Sitemap\SitemapTypeConstraints;
 
 /**
  * Сервис-создатель карты сайта формата CSV.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Sitemap\Factories;
+namespace kirillkhimich\Sitemap\Factories;
 
-use Sitemap\Services\SitemapJSON;
-use Sitemap\Services\Sitemaps;
-use Sitemap\SitemapTypeConstraints;
+use kirillkhimich\Sitemap\Services\SitemapJSON;
+use kirillkhimich\Sitemap\Services\Sitemaps;
+use kirillkhimich\Sitemap\SitemapTypeConstraints;
 
 /**
  * Фабрика, соответствующая типу карты сайта JSON.

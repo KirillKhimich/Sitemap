@@ -1,8 +1,8 @@
 <?php
 
-namespace Sitemap\Factories;
+namespace kirillkhimich\Sitemap\Factories;
 
-use Sitemap\Services\Sitemaps;
+use kirillkhimich\Sitemap\Services\Sitemaps;
 /**
  * Базовый класс фабрик.
  */
