@@ -170,7 +170,7 @@ class CheckingArrayHelper
     }
 
     /**
-     * Саб-метод для self::isValidLastModValue.
+     * Саб-метод для $this->isValidLastModValue.
      * @param String $date
      * @param string $format
      * @return bool
@@ -183,11 +183,33 @@ class CheckingArrayHelper
         }
         return false;
     }
+
+    /**
+     * Саб-метод для $this->isValidPriorityValue.
+     * @param String $string
+     * @return float|false
+     */
     public function stringToFloat($string) : float|false
     {
             if (preg_match('/^[0-9]*\.?[0-9]+$/', $string)) {
                 return(float) $string;
             }
             return false;
+    }
+    /**
+     * Статический метод на проверку является ли переданный параметр массивом.
+     * @param mixed $array
+     * @return array
+     */
+    public static function isArrayContents(mixed $array) : array
+    {
+        if (is_array($array))
+        {
+            return $array;
+        }
+        else
+        {
+            throw new InvalidArrayException("Переданный аргумент не является массивом.");
+        }
     }
 }

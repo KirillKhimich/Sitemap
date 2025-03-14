@@ -19,7 +19,7 @@ class SitemapINIT
      * @param array $content Массив страниц, которые мы хотим записать в файл.
      */
 
-    public function init(SitemapFactory $factory, array $content, string $path): void
+    public function init(SitemapFactory $factory, mixed $content, string $path): void
     {
         try
         {
