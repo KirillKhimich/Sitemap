@@ -24,6 +24,7 @@ class SitemapINIT
         try
         {
             $this->createDir($path);
+            CheckingArrayHelper::isArrayContents($content);
             $factory->create($path,$content);
         }
         catch (\Exception $exception)
